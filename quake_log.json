@@ -1,0 +1,29 @@
+[
+    {
+        "time": "0:00",
+        "event_type": "Kill",
+        "killer_id": "1022",
+        "victim_id": "2",
+        "killer": "<world>",
+        "victim": "Isgalamido",
+        "mod": "MOD_TRIGGER_HURT"
+    },
+    {
+        "time": "0:15",
+        "event_type": "Kill",
+        "killer_id": "3",
+        "victim_id": "2",
+        "killer": "Isgalamido",
+        "victim": "Dono da Bola",
+        "mod": "MOD_RAILGUN"
+    },
+    {
+        "time": "1:00",
+        "event_type": "Kill",
+        "killer_id": "3",
+        "victim_id": "2",
+        "killer": "Isgalamido",
+        "victim": "Zeh",
+        "mod": "MOD_RAILGUN"
+    }
+]
