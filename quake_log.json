@@ -1,29 +1,93 @@
-[
-    {
-        "time": "0:00",
-        "event_type": "Kill",
-        "killer_id": "1022",
-        "victim_id": "2",
-        "killer": "<world>",
-        "victim": "Isgalamido",
-        "mod": "MOD_TRIGGER_HURT"
+{
+    "players": {
+        "Isgalamido": {
+            "kills": 2,
+            "deaths": 1,
+            "events": [
+                {
+                    "time": "0:00",
+                    "event_type": "Kill",
+                    "killer": "<world>",
+                    "mod": "MOD_TRIGGER_HURT"
+                },
+                {
+                    "time": "0:15",
+                    "event_type": "Kill",
+                    "victim": "Dono da Bola",
+                    "mod": "MOD_RAILGUN"
+                },
+                {
+                    "time": "1:00",
+                    "event_type": "Kill",
+                    "victim": "Zeh",
+                    "mod": "MOD_RAILGUN"
+                }
+            ]
+        },
+        "<world>": {
+            "kills": 0,
+            "deaths": 0,
+            "events": [
+                {
+                    "time": "0:00",
+                    "event_type": "Kill",
+                    "victim": "Isgalamido",
+                    "mod": "MOD_TRIGGER_HURT"
+                }
+            ]
+        },
+        "Dono da Bola": {
+            "kills": 0,
+            "deaths": 1,
+            "events": [
+                {
+                    "time": "0:15",
+                    "event_type": "Kill",
+                    "killer": "Isgalamido",
+                    "mod": "MOD_RAILGUN"
+                }
+            ]
+        },
+        "Zeh": {
+            "kills": 0,
+            "deaths": 1,
+            "events": [
+                {
+                    "time": "1:00",
+                    "event_type": "Kill",
+                    "killer": "Isgalamido",
+                    "mod": "MOD_RAILGUN"
+                }
+            ]
+        }
     },
-    {
-        "time": "0:15",
-        "event_type": "Kill",
-        "killer_id": "3",
-        "victim_id": "2",
-        "killer": "Isgalamido",
-        "victim": "Dono da Bola",
-        "mod": "MOD_RAILGUN"
-    },
-    {
-        "time": "1:00",
-        "event_type": "Kill",
-        "killer_id": "3",
-        "victim_id": "2",
-        "killer": "Isgalamido",
-        "victim": "Zeh",
-        "mod": "MOD_RAILGUN"
-    }
-]
+    "events": [
+        {
+            "time": "0:00",
+            "event_type": "Kill",
+            "killer_id": "1022",
+            "victim_id": "2",
+            "killer": "<world>",
+            "victim": "Isgalamido",
+            "mod": "MOD_TRIGGER_HURT"
+        },
+        {
+            "time": "0:15",
+            "event_type": "Kill",
+            "killer_id": "3",
+            "victim_id": "2",
+            "killer": "Isgalamido",
+            "victim": "Dono da Bola",
+            "mod": "MOD_RAILGUN"
+        },
+        {
+            "time": "1:00",
+            "event_type": "Kill",
+            "killer_id": "3",
+            "victim_id": "2",
+            "killer": "Isgalamido",
+            "victim": "Zeh",
+            "mod": "MOD_RAILGUN"
+        }
+    ]
+}
